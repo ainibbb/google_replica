@@ -1,0 +1,139 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*centers Google logo*/
+.logo, .search-area, .search-btns {
+  display: flex;
+  justify-content: center; 
+}
+
+.logo {
+  margin-top: 125px;
+}
+
+.logo img {
+  height: 92px;
+  width: 272px;
+}
+
+/*search bar*/
+#search-bar {
+  width: 600px;
+  height: 44px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: medium;
+  box-shadow: 1px 8px 6px -6px #acacacf5;
+  border: 1px solid rgb(232, 232, 232); 
+  text-indent: 20px;
+}
+
+#search-bar:focus {
+  outline: 0;
+}
+
+/*buttons*/
+.search-btns button {
+  background-color: #f1f1f1; 
+  border: none;
+  color: #757575;
+  font-size: small;
+  font-weight: bold;
+  width: 142px; 
+  height: 36px;
+  line-height: 27px;
+  margin: 5px;
+}
+
+.search-btns button:hover {
+  color: black;
+  border: 1px solid #acacac ;
+}
+
+/*menu*/
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.left-menu{
+  width: 100px;
+  margin-left: 10px;
+}
+
+.right-menu{
+  width: 250px;
+  margin-right: 10px;
+}
+
+.left-menu-options, .right-menu-options{
+  display: flex;
+  justify-content: space-around;
+  padding: 2px;
+  list-style-type: none;
+  font-size: small;
+  align-items: center;
+}
+
+.menu-option a{
+  color: #444;
+  text-decoration: none;
+}
+
+.menu-option a:hover { 
+  text-decoration: underline;
+}
+
+.icon-option {
+  height: 20px; 
+  width: 20px;
+}
+
+#profile-pic {
+  border-radius: 100%;
+  height: 32px;
+  width: 32px;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  background-color: #f2f2f2;
+  justify-content: space-between;
+  position: absolute; 
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+}
+
+.footer-left-menu {
+  width: 150px;
+  margin-left: 10px;
+} 
+
+.footer-right-menu {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.footer-left-options, .footer-right-options{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-menu-option a{
+  font-size: small;
+  text-decoration: none;
+  color: #505050; 
+}
+
+.footer-menu-option a:hover {
+  text-decoration: underline;
+}
